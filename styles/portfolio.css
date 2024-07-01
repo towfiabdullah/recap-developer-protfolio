@@ -1,0 +1,81 @@
+/* nav related css */
+*{
+   margin:0px;
+}
+body{
+   font-family: "Open Sans", sans-serif;
+}
+nav{
+   display:flex;
+   justify-content:space-between;
+   align-items:center;
+   padding-top:50px;
+   margin:0 200px;
+}
+.nav-title{
+   color:black;
+     font-size:45px;
+     font-weight: 800;
+}
+.text-primary{
+     color:rgb(253, 110, 10);
+}
+.btn-primary{
+   border-radius: 5px;
+
+   background: rgb(253, 110, 10);
+   border:0;
+   font-size:20px;
+   font-weight: 700;
+   color:white;
+   padding:15px 35px;
+
+
+}
+nav>ul{
+   display: flex;
+   align-items:center;
+}
+nav li {
+    list-style:none;
+    margin-right:50px;
+}
+nav a {
+    text-decoration:none;
+    color:rgb(71, 71, 71);
+    
+}
+.header{
+   background: rgb(255, 248, 243);
+   background-image: url(../images/header_bg.png);
+   background-repeat:no-repeat;
+   background-position:bottom right;
+}
+.banner {
+    padding :30px 30px 0px 180px;
+    display:flex;
+    
+    align-items:center;
+}
+ .banner .profilepice{
+    width:500px;
+ }
+ .greetings{
+   color: rgb(71, 71, 71);
+   font-size: 45px;
+   color: rgb(71, 71, 71);
+   margin-bottom:0;
+   font-weight: 600;
+ }
+ .b-title{
+     font-size: 85px;
+     margin-top:5px;
+     margin-bottom:0;
+ }
+ .banner-des{
+      margin-top:20px;
+      max-width: 585px;
+      margin-bottom: 20px;
+      color: rgb(117, 117, 117);
+
+ }
